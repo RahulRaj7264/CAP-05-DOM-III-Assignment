@@ -1,0 +1,37 @@
+ .processing {
+      display: none;
+      font-size: 20px;
+      padding: 10px;
+      color: blue;
+    }
+    .processing-circle {
+      display: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #6c34db;
+      border-top: 2px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+    .success {
+      display: none;
+      font-size: 20px;
+      color: green;
+    }
+    .failure {
+      display: none;
+      font-size: 20px;
+      color: red;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .amt-btn{
+        text-align: center;
+        background-color: #6c34db;
+        width: 500px;
+        height: 300px;
+        
+    }
